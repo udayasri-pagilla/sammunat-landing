@@ -9,16 +9,16 @@ export default function Home() {
 
         {/* ================= HERO ================= */}
         <section className="relative flex h-screen items-center justify-center">
-          <div className="absolute inset-0 -z-10 bg-gradient-to-b from-gray-50 via-white to-gray-100"></div>
+          <div className="absolute inset-0 -z-10 bg-gradient-to-b from-gray-50 via-white to-gray-100" />
 
           <div className="mx-auto max-w-6xl px-6 text-center">
-            <h1 className="text-5xl font-extrabold tracking-tight md:text-7xl">
+            <h1 className="text-5xl font-extrabold md:text-7xl">
               Building Scalable
               <br />
               Digital Solutions
             </h1>
 
-            <p className="mt-6 text-xl font-medium text-gray-700">
+            <p className="mt-6 text-xl text-gray-700">
               From idea to production-ready systems.
             </p>
 
@@ -28,16 +28,10 @@ export default function Home() {
             </p>
 
             <div className="mt-12 flex justify-center gap-5">
-              <a
-                href="#services"
-                className="rounded-lg bg-black px-8 py-4 text-white hover:bg-gray-800"
-              >
+              <a href="#services" className="rounded-lg bg-black px-8 py-4 text-white">
                 Get Started
               </a>
-              <a
-                href="#contact"
-                className="rounded-lg border px-8 py-4 hover:bg-gray-100"
-              >
+              <a href="#contact" className="rounded-lg border px-8 py-4">
                 Contact Us
               </a>
             </div>
@@ -47,42 +41,40 @@ export default function Home() {
         {/* ================= SERVICES ================= */}
         <section
           id="services"
-          className="scroll-mt-24 py-24"
+          className="min-h-screen flex items-center"
         >
           <div className="mx-auto max-w-7xl px-6 text-center">
-            <h2 className="text-3xl font-bold md:text-4xl">
+            <h2 className="text-4xl font-bold">
               What We Do
             </h2>
 
-            <p className="mx-auto mt-4 max-w-2xl text-gray-600">
-              We help startups and businesses build scalable digital products.
+            <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-600">
+              We help startups and businesses build scalable, reliable digital
+              products from the ground up.
             </p>
 
-            <div className="mt-16 grid gap-8 md:grid-cols-3">
-              <div className="rounded-xl border p-8 hover:shadow-lg">
-                <h3 className="text-xl font-semibold">
-                  Product Development
-                </h3>
+            <div className="mt-20 grid gap-10 md:grid-cols-3">
+              <div className="rounded-xl border p-10">
+                <h3 className="text-xl font-semibold">Product Development</h3>
                 <p className="mt-4 text-gray-600">
-                  From idea to production-ready applications.
+                  From idea validation to production-ready applications with
+                  long-term scalability.
                 </p>
               </div>
 
-              <div className="rounded-xl border p-8 hover:shadow-lg">
-                <h3 className="text-xl font-semibold">
-                  Web & App Solutions
-                </h3>
+              <div className="rounded-xl border p-10">
+                <h3 className="text-xl font-semibold">Web & App Solutions</h3>
                 <p className="mt-4 text-gray-600">
-                  Scalable web and mobile applications.
+                  Modern, high-performance web and mobile applications built
+                  using proven technologies.
                 </p>
               </div>
 
-              <div className="rounded-xl border p-8 hover:shadow-lg">
-                <h3 className="text-xl font-semibold">
-                  Startup Consulting
-                </h3>
+              <div className="rounded-xl border p-10">
+                <h3 className="text-xl font-semibold">Startup Consulting</h3>
                 <p className="mt-4 text-gray-600">
-                  Architecture and technology guidance.
+                  Technical guidance to help startups make correct architectural
+                  and product decisions.
                 </p>
               </div>
             </div>
@@ -92,38 +84,32 @@ export default function Home() {
         {/* ================= PROCESS ================= */}
         <section
           id="process"
-          className="scroll-mt-24 bg-gray-50 py-24"
+          className="min-h-screen flex items-center bg-gray-50"
         >
           <div className="mx-auto max-w-6xl px-6 text-center">
-            <h2 className="text-3xl font-bold md:text-4xl">
+            <h2 className="text-4xl font-bold">
               Our Process
             </h2>
 
-            <div className="mt-16 grid gap-10 md:grid-cols-3">
+            <div className="mt-20 grid gap-12 md:grid-cols-3">
               <div>
-                <h3 className="text-xl font-semibold">
-                  1. Understand
-                </h3>
-                <p className="mt-3 text-gray-600">
-                  We deeply understand your problem and goals.
+                <h3 className="text-xl font-semibold">1. Understand</h3>
+                <p className="mt-4 text-gray-600">
+                  We deeply understand your problem, users, and business goals.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold">
-                  2. Build
-                </h3>
-                <p className="mt-3 text-gray-600">
-                  We design and build scalable solutions.
+                <h3 className="text-xl font-semibold">2. Build</h3>
+                <p className="mt-4 text-gray-600">
+                  We design and build clean, scalable systems with best practices.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold">
-                  3. Scale
-                </h3>
-                <p className="mt-3 text-gray-600">
-                  We help you grow and scale confidently.
+                <h3 className="text-xl font-semibold">3. Scale</h3>
+                <p className="mt-4 text-gray-600">
+                  We help you confidently scale products and teams.
                 </p>
               </div>
             </div>
@@ -133,19 +119,20 @@ export default function Home() {
         {/* ================= CONTACT ================= */}
         <section
           id="contact"
-          className="scroll-mt-24 py-24"
+          className="min-h-screen flex items-center"
         >
           <div className="mx-auto max-w-4xl px-6 text-center">
-            <h2 className="text-3xl font-bold md:text-4xl">
+            <h2 className="text-4xl font-bold">
               Let’s Work Together
             </h2>
 
-            <p className="mx-auto mt-4 max-w-xl text-gray-600">
-              Have a project in mind? Let’s talk.
+            <p className="mx-auto mt-6 max-w-xl text-lg text-gray-600">
+              Have a project in mind? Let’s discuss how we can help you build and
+              scale it.
             </p>
 
-            <div className="mt-10">
-              <button className="rounded-lg bg-black px-8 py-4 text-white hover:bg-gray-800">
+            <div className="mt-12">
+              <button className="rounded-lg bg-black px-10 py-4 text-white">
                 Contact Us
               </button>
             </div>
