@@ -28,10 +28,16 @@ export default function Home() {
             </p>
 
             <div className="mt-12 flex justify-center gap-5">
-              <a href="#services" className="rounded-lg bg-black px-8 py-4 text-white">
+              <a
+                href="#services"
+                className="rounded-lg bg-black px-8 py-4 text-white hover:bg-gray-800"
+              >
                 Get Started
               </a>
-              <a href="#contact" className="rounded-lg border px-8 py-4">
+              <a
+                href="#contact"
+                className="rounded-lg border px-8 py-4 hover:bg-gray-100"
+              >
                 Contact Us
               </a>
             </div>
@@ -55,7 +61,9 @@ export default function Home() {
 
             <div className="mt-20 grid gap-10 md:grid-cols-3">
               <div className="rounded-xl border p-10">
-                <h3 className="text-xl font-semibold">Product Development</h3>
+                <h3 className="text-xl font-semibold">
+                  Product Development
+                </h3>
                 <p className="mt-4 text-gray-600">
                   From idea validation to production-ready applications with
                   long-term scalability.
@@ -63,7 +71,9 @@ export default function Home() {
               </div>
 
               <div className="rounded-xl border p-10">
-                <h3 className="text-xl font-semibold">Web & App Solutions</h3>
+                <h3 className="text-xl font-semibold">
+                  Web & App Solutions
+                </h3>
                 <p className="mt-4 text-gray-600">
                   Modern, high-performance web and mobile applications built
                   using proven technologies.
@@ -71,7 +81,9 @@ export default function Home() {
               </div>
 
               <div className="rounded-xl border p-10">
-                <h3 className="text-xl font-semibold">Startup Consulting</h3>
+                <h3 className="text-xl font-semibold">
+                  Startup Consulting
+                </h3>
                 <p className="mt-4 text-gray-600">
                   Technical guidance to help startups make correct architectural
                   and product decisions.
@@ -132,15 +144,59 @@ export default function Home() {
             </p>
 
             <div className="mt-12">
-              <button className="rounded-lg bg-black px-10 py-4 text-white">
+              <a
+                href="mailto:udayasripagilla1873@gmail.com"
+                className="inline-block rounded-lg bg-black px-10 py-4 text-white hover:bg-gray-800"
+              >
                 Contact Us
-              </button>
+              </a>
             </div>
           </div>
         </section>
+
+       {/* ================= FOOTER ================= */}
+{/* ================= FOOTER ================= */}
+<footer className="bg-gray-50">
+  <div className="mx-auto max-w-7xl px-6 pb-12">
+
+    <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
+
+      {/* Brand */}
+      <div>
+        <h3 className="text-lg font-semibold">Sammunat</h3>
+        <p className="mt-2 max-w-sm text-sm text-gray-600">
+          Building scalable, production-ready digital solutions for startups and
+          growing businesses.
+        </p>
+      </div>
+
+      {/* Links */}
+      <nav className="flex gap-6 text-sm text-gray-600">
+        <a href="#services" className="hover:text-black">
+          Services
+        </a>
+        <a href="#process" className="hover:text-black">
+          Process
+        </a>
+        <a href="#contact" className="hover:text-black">
+          Contact
+        </a>
+      </nav>
+
+    </div>
+
+    <div className="mt-8 text-center text-sm text-gray-500">
+      © {new Date().getFullYear()} Sammunat. All rights reserved.
+    </div>
+
+  </div>
+</footer>
+
+
 
       </main>
     </>
   );
 }
+
 
