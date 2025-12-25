@@ -155,7 +155,6 @@ export default function Home() {
         </section>
 
        {/* ================= FOOTER ================= */}
-{/* ================= FOOTER ================= */}
 <footer className="bg-gray-50">
   <div className="mx-auto max-w-7xl px-6 pb-12">
 
